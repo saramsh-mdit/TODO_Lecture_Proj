@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#dark {
+    background: #262626;
+    color: white;
+}
+
+#dark input, #dark textarea {
+    background: #5d5d5d;
+    color: white;
+}
+
+.input {
+    @apply border border-solid border-gray-200;
+}
+.input:hover {
+    @apply border-gray-500;
+}
